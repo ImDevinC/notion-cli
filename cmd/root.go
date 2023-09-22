@@ -42,7 +42,6 @@ func initConfig() {
 	cfg, err = config.LoadConfig()
 	if err != nil {
 		fmt.Println(errorStyle.Style(err.Error()))
-		os.Exit(1)
 	}
 }
 
